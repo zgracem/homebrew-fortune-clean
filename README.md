@@ -1,11 +1,11 @@
 # homebrew-fortune-clean
 
-An alternate tap of `fortune(6)` that does not install offensive content to
+An alternate tap of `fortune(6)` that does not install "offensive" content to
 your computer.
 
 ## Rationale
 
-I don't want hate speech on my computer, even lurking in Homebrew's Cellar.
+I don't want hate speech on my hard drive, even lurking in Homebrew's Cellar.
 
 ## History
 
@@ -22,9 +22,17 @@ I don't want hate speech on my computer, even lurking in Homebrew's Cellar.
 
 — Notes of the original authors, 1993
 
-## Usage
+## Installation
 
 ```sh
 brew uninstall fortune # if currently installed
 brew install zgracem/fortune-clean/fortune # automatically taps this repo
 ```
+
+## Usage
+
+```sh
+fortune -o # results in an error
+```
+
+Otherwise, refer to `man fortune` for complete instructions.
