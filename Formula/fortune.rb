@@ -30,5 +30,6 @@ class Fortune < Formula
 
   test do
     system "#{bin}/fortune"
+    system "! #{bin}/fortune -o"
   end
 end
