@@ -1,5 +1,12 @@
 # homebrew-fortune-clean
 
+**This tap is deprecated.** Homebrew no longer enables `fortune -o` by default
+as of [homebrew-core@`3fb3c4c`][hc].
+
+[hc]: https://github.com/Homebrew/homebrew-core/commit/3fb3c4c3e5507a0d4022ec71a81c2358a0fd6ae1
+
+***
+
 An alternate tap of `fortune(6)` that does not install "offensive" content to
 your computer.
 
